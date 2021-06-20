@@ -19,6 +19,9 @@ class HomePage extends StatelessWidget {
       backgroundColor: primaryColor,
       body: Column(
         children: [
+          SizedBox(
+            height: 20,
+          ),
           Container(
             height: 120,
             child: WalletHeader(),
