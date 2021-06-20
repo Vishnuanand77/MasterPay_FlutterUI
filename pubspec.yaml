@@ -44,7 +44,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - secondary_assets/images
+    - secondary_assets/images/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -65,10 +65,10 @@ flutter:
   fonts:
     - family: Roboto
       fonts:
-        - asset: secondary_assets/fonts/Roboto-Regular.ttf
-        - asset: secondary_assets/fonts/Roboto-Light.ttf
+        - asset: secondary_assets/font/Roboto-Regular.ttf
+        - asset: secondary_assets/font/Roboto-Light.ttf
           weight: 100
-        - asset: secondary_assets/fonts/Roboto-Bold.ttf
+        - asset: secondary_assets/font/Roboto-Bold.ttf
           weight: 500
   #   - family: Trajan Pro
   #     fonts:
