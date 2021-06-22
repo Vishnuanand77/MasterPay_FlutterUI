@@ -17,7 +17,7 @@ class CardSection extends StatelessWidget {
           alignment: Alignment.topLeft,
           child: Text(
             'Card Selected',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
           ),
         ),
         Expanded(
@@ -29,7 +29,7 @@ class CardSection extends StatelessWidget {
                   clipBehavior: Clip.hardEdge,
                   margin: EdgeInsets.symmetric(
                     horizontal: 20,
-                    vertical: 40,
+                    vertical: 35,
                   ),
                   width: MediaQuery.of(context).size.width,
                   decoration: BoxDecoration(
