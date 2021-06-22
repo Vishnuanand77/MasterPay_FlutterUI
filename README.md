@@ -75,7 +75,7 @@ To run this application, you need the latest version of flutter
 <!-- CONTACT -->
 ## Contact
 
-Vishnu Anand<br> - [@twitter_handle](https://twitter.com/vishnuanand2000)<br> - vishnuanand2000@gmail.com
+Vishnu Anand<br> - [@vishnuanand2000](https://twitter.com/vishnuanand2000)<br> - vishnuanand2000@gmail.com
 
 Project Link: [https://github.com/Vishnuanand77/NetWorthApp.git](https://github.com/Vishnuanand77/NetWorthApp.git)
 
