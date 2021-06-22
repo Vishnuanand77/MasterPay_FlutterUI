@@ -1,4 +1,5 @@
 import 'package:expenses_app_ui/data.dart';
+import 'package:expenses_app_ui/widgets/PieChart.dart';
 import 'package:flutter/material.dart';
 
 class ExpensesSection extends StatelessWidget {
@@ -15,7 +16,7 @@ class ExpensesSection extends StatelessWidget {
               horizontal: 20,
             ),
             child: Text(
-              'Expenses',
+              'Monthly Expenses',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
           ),
@@ -59,7 +60,8 @@ class ExpensesSection extends StatelessWidget {
                 ),
               ),
               Expanded(
-                child: Container(),
+                flex: 6,
+                child: PieChart(),
               ),
             ],
           ),
