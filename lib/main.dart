@@ -2,6 +2,7 @@ import 'package:expenses_app_ui/data.dart';
 import 'package:expenses_app_ui/widgets/walletheader.dart';
 import 'package:flutter/material.dart';
 
+import 'widgets/ExpensesSection.dart';
 import 'widgets/cardSection.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class HomePage extends StatelessWidget {
             child: CardSection(),
           ),
           Expanded(
-            child: Container(),
+            child: ExpensesSection(),
           ),
         ],
       ),
