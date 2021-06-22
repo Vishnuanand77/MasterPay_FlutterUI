@@ -1,4 +1,5 @@
 import 'package:expenses_app_ui/data.dart';
+import 'package:expenses_app_ui/widgets/cardDetails.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -25,6 +26,7 @@ class CardSection extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemBuilder: (ctx, i) {
                 return Container(
+                  clipBehavior: Clip.hardEdge,
                   margin: EdgeInsets.symmetric(
                     horizontal: 20,
                     vertical: 40,
@@ -33,7 +35,7 @@ class CardSection extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: primaryColor,
                     boxShadow: customShadow,
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.all(Radius.circular(20)),
                   ),
                   child: Stack(
                     children: [
@@ -60,6 +62,7 @@ class CardSection extends StatelessWidget {
                           ),
                         ),
                       ),
+                      CardDetails(),
                     ],
                   ),
                 );
