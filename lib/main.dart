@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
     home: HomePage(),
+    debugShowCheckedModeBanner: false,
     theme: ThemeData(fontFamily: 'Roboto'),
   ));
 }
@@ -19,6 +19,9 @@ class HomePage extends StatelessWidget {
       backgroundColor: primaryColor,
       body: Column(
         children: [
+          SizedBox(
+            height: 20,
+          ),
           Container(
             height: 120,
             child: WalletHeader(),
